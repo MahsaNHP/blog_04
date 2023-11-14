@@ -63,6 +63,13 @@ img {
   object-fit: cover;
 }
 
+figcaption {
+  font-size: .8vw;
+  text-align: center;
+  margin-top: -.8vw;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .data-information {
   padding: 1.5vw 5vw;
 }
@@ -87,6 +94,11 @@ a:active {
 a,
 time {
   font-size: 1.3vw;
+}
+
+.blog-links a:link{
+  font-size: 1vw;
+  color: #001216;
 }
 
 article > p {
