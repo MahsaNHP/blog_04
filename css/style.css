@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Angkor;
+  src: url(../fonts/Angkor/Angkor-Regular.ttf);
+}
+
+@font-face {
+  font-family: Share_Tech;
+  src: url(../fonts/Share_Tech/ShareTech-Regular.ttf);
+}
+
+@font-face {
+  font-family: Titan_One;
+  src: url(../fonts/Titan_One/TitanOne-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +32,7 @@ body {
 
 /* scroller */
 ::-webkit-scrollbar {
-  width: .5vw;
+  width: 0.5vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -35,6 +50,8 @@ h1 {
   padding: 2vw;
   color: #809ea4;
   font-size: 3vw;
+  font-family: Angkor;
+  letter-spacing: .1vw;
 }
 
 /* main */
@@ -53,8 +70,10 @@ h2 {
   font-size: 2.5vw;
   padding: 1.5vw 5vw;
   color: #001216;
-  line-height: normal;
+  line-height: 3vw;
   text-align: justify;
+  font-family: "Share_Tech";
+  letter-spacing: -.08vw;
 }
 
 img {
@@ -64,10 +83,10 @@ img {
 }
 
 figcaption {
-  font-size: .8vw;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: -.8vw;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -0.5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .data-information {
@@ -96,22 +115,23 @@ time {
   font-size: 1.3vw;
 }
 
-.blog-links a:link{
+.blog-links a:link {
   font-size: 1vw;
   color: #001216;
 }
 
 article > p {
   padding: 0 5vw 3vw;
-  text-indent: 30px;
+  text-indent: 2vw;
   text-align: justify;
   font-size: 1.3vw;
   color: #001216;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: -.05vw;
 }
 
 footer {
   width: 100%;
-  /* height: 10vw; */
   height: 6vw;
   color: #809ea4;
   background-color: #33646d;
