@@ -60,6 +60,7 @@ h1 {
   height: 50%;
   margin: 1rem auto;
   background-color: #ebf0f0;
+  padding-bottom: 3vw;
 }
 
 .article-container:last-child {
@@ -121,13 +122,16 @@ time {
 }
 
 article > p {
-  padding: 0 5vw 3vw;
-  text-indent: 2vw;
+  padding: 0 5vw 1vw;
   text-align: justify;
   font-size: 1.3vw;
   color: #001216;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  letter-spacing: -.05vw;
+  letter-spacing: -.04vw;
+}
+
+.first-paragraph {
+  text-indent: 2vw;
 }
 
 footer {
